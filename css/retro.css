@@ -1,0 +1,48 @@
+@font-face{
+    font-family:Roboto;
+    src: url(fonts/Roboto-Light.ttf);
+} 
+
+body{
+    background-image: url("../img/background/record-player.jpg");
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+li{
+    margin-left:1vw;
+    margin-right:1vw;
+    font-family: Roboto,"sans serif";
+    color: black;
+}
+.row{
+    margin-bottom:0px;
+}
+
+section{
+    margin-top: 30vh;
+    margin-bottom: 15vh;
+    
+}
+p{
+    color:black;
+}
+
+
+footer{
+    background-color: purple;
+    margin-top:20vh;
+    width: 100%;
+    height: auto;
+}
+
+.footer-img{
+    width: 5vw;
+    height: 5vh;
+}
+ul{
+    text-decoration: none;
+    display: inline-flex;
+}
+
